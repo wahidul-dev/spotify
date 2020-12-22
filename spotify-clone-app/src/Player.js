@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Player.css";
 
-function Player() {
+function Player({ spotify }) {
     return (
         <div className="player">
             <h1>Welcome to spotify</h1>
@@ -9,4 +9,4 @@ function Player() {
     )
 }
 
-export default Player
+export default Player;
