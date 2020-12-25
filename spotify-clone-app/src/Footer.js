@@ -15,7 +15,7 @@ function Footer() {
             <div className="footer__left">
                 <img 
                 className="footer__albumLogo"
-                src="" alt=""/>
+                src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg" alt=""/>
                 <div className="footer__songInfo">
                     <h4>Yeah</h4>
                     <p>Usher</p>
@@ -26,7 +26,7 @@ function Footer() {
                 <ShuffleIcon className="footer__green" />
                 <SkipPreviousIcon className="footer__icon" />
                 <PlayCircleOutlineIcon fontSize="large" className="footer__icon" />
-                <SkipNextIcon className="footer__icons" />
+                <SkipNextIcon className="footer__icon" />
                 <RepeatIcon className="footer__green" />
             </div>
 
