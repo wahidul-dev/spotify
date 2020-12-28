@@ -3,8 +3,9 @@ import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import { Avatar } from "@material-ui/core";
 import { useDataLayerValue } from './DataLayer';
+import { useEffect } from "react";
 
-function Header() {
+function Header({ spotify }) {
     const [{ user }, dispatch] = useDataLayerValue();
 
     return (
